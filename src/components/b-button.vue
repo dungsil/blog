@@ -1,11 +1,11 @@
 <script lang="ts" setup>
+import type { PropType } from 'vue-demi'
 import { useTheme } from '~/composables/ui'
 
-import type { PropType } from 'vue-demi'
 import type { UITheme } from '~/types'
 
 const props = defineProps({
-  theme: String as PropType<UITheme>
+  theme: String as PropType<UITheme>,
 })
 
 const themeClasses = useTheme(props.theme)

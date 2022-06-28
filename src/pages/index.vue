@@ -19,7 +19,7 @@ function onClickArticle(title: string) {
     </h2>
 
     <!-- 게시글 목록 -->
-    <div v-for="path in paths" class="cursor-pointer" @click="onClickArticle(path)">
+    <div v-for="path in paths" :key="path" class="cursor-pointer" @click="onClickArticle(path)">
       <h3 class="font-800 text-4xl hover:underline">
         {{ articles[path].title }}
       </h3>
@@ -29,7 +29,7 @@ function onClickArticle(title: string) {
 
       <!-- 태그 목록 -->
       <div class="mt4 space-x-2">
-        <span v-for="tag in articles[path].tags" class="px2 py1 border-1 rounded-xl font-light text-sm">
+        <span v-for="tag in articles[path].tags" :key="tag" class="px2 py1 border-1 rounded-xl font-light text-sm">
           {{ tag }}
         </span>
       </div>

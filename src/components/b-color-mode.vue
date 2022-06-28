@@ -1,9 +1,8 @@
 <script lang="ts" setup>
-
 const color = useColorMode({
   storageKey: 'color-mode',
   selector: 'html',
-  attribute: 'data-color-mode'
+  attribute: 'data-color-mode',
 })
 </script>
 
