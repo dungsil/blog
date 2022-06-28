@@ -13,7 +13,7 @@ function onClickArticle(title: string) {
 </script>
 
 <template>
-  <div class="container ml4 md:mx-auto">
+  <div class="container mx4 md:mx-auto">
     <h2 class="mb-8 font-medium text-xl">
       최근 글
     </h2>
