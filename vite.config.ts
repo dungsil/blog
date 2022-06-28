@@ -88,6 +88,14 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: [],
+      manifest: {
+        name: 'https://younggeon.kim',
+        short_name: '@dungsil',
+        lang: 'ko-KR',
+        theme_color: '#10b981',
+        background_color: '#1f2937',
+        dir: 'ltr',
+      },
     }),
 
     // https://github.com/antfu/vite-plugin-inspect
