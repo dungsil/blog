@@ -1,18 +1,17 @@
-<script setup lang="ts">
-const router = useRouter()
-const { t } = useI18n()
-</script>
-
 <template>
-  <main p="x4 y10" text="center teal-700 dark:gray-200">
-    <div text-4xl>
-      <div i-carbon-warning inline-block />
-    </div>
-    <RouterView />
-    <div>
-      <button btn text-sm m="3 t8" @click="router.back()">
-        {{ t('button.back') }}
-      </button>
+  <main class="flex flex-col w100p h100vh justify-center items-center text-xl space-y-4">
+    <p class="i-carbon-warning" />
+
+    <router-view />
+
+    <div class="inline-flex flex-row space-x-4">
+      <b-button @click="$router.back()">
+        뒤로가기
+      </b-button>
+
+      <b-button theme="primary" @click="$router.push('/')">
+        메인페이지로
+      </b-button>
     </div>
   </main>
 </template>

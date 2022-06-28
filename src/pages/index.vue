@@ -1,62 +1,43 @@
-<script setup lang="ts">
-const user = useUserStore()
-const name = $ref(user.savedName)
-
+<script lang="ts" setup>
 const router = useRouter()
-const go = () => {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
-}
 
-const { t } = useI18n()
+const articles = import.meta.globEager('./**/*.md')
+const paths = Object.keys(articles)
+
+function onClickArticle(title: string) {
+  let path = title.replace(/\.md$/, '')
+  path = path.replace(/^\./, '')
+
+  router.push(path)
+}
 </script>
 
 <template>
-  <div>
-    <div text-4xl>
-      <div i-carbon-campsite inline-block />
-    </div>
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
+  <div class="container mx-auto">
+    <h2 class="mb-8 font-medium text-xl">
+      최근 글
+    </h2>
 
-    <div py-4 />
+    <!-- 게시글 목록 -->
+    <div v-for="path in paths" class="cursor-pointer" @click="onClickArticle(path)">
+      <h3 class="font-800 text-4xl hover:underline">
+        {{ articles[path].title }}
+      </h3>
+      <p class="text-gray-300">
+        {{ articles[path].description ?? '' }}
+      </p>
 
-    <input
-      id="input"
-      v-model="name"
-      :placeholder="t('intro.whats-your-name')"
-      :aria-label="t('intro.whats-your-name')"
-      type="text"
-      autocomplete="false"
-      p="x4 y2"
-      w="250px"
-      text="center"
-      bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
-      @keydown.enter="go"
-    >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
-
-    <div>
-      <button
-        btn m-3 text-sm
-        :disabled="!name"
-        @click="go"
-      >
-        {{ t('button.go') }}
-      </button>
+      <!-- 태그 목록 -->
+      <div class="mt4 space-x-2">
+        <span v-for="tag in articles[path].tags" class="px2 py1 border-1 rounded-xl font-light text-sm">
+          {{ tag }}
+        </span>
+      </div>
     </div>
   </div>
 </template>
 
 <route lang="yaml">
 meta:
-  layout: home
+  layout: article-list
 </route>

@@ -5,8 +5,11 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Counter: typeof import('./components/Counter.vue')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
+    AppFooter: typeof import('./components/app-footer.vue')['default']
+    AppHeader: typeof import('./components/app-header.vue')['default']
+    BButton: typeof import('./components/b-button.vue')['default']
+    BColorMode: typeof import('./components/b-color-mode.vue')['default']
+    BIconButton: typeof import('./components/b-icon-button.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
