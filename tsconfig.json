@@ -17,13 +17,13 @@
     "strictNullChecks": true,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./types"],
     "types": [
       "vitest",
       "vite/client",
       "vue/ref-macros",
       "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client",
-      "./types"
+      "vite-plugin-vue-layouts/client"
     ],
     "paths": {
       "~/*": [
