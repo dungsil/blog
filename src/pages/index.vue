@@ -28,10 +28,15 @@ function onClickArticle(title: string) {
       </p>
 
       <!-- 태그 목록 -->
-      <div class="mt4 space-x-2">
-        <span v-for="tag in articles[path].tags" :key="tag" class="px2 py1 border-1 rounded-xl font-light text-sm">
+      <div class="flex mt4">
+        <span
+          v-for="tag in articles[path].tags" :key="tag"
+          class="ml2 first:ml0 px2 py1 border-1 rounded-xl font-light text-sm"
+        >
           {{ tag }}
         </span>
+
+        <span class="inline-block ml-auto text-sm text-gray-200">{{ articles[path].since }}</span>
       </div>
     </div>
   </div>
