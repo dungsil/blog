@@ -45,7 +45,7 @@ export default defineConfig({
         '@vueuse/head',
         '@vueuse/core',
       ],
-      dts: 'src/auto-imports.d.ts',
+      dts: 'types/auto-imports.d.ts',
       dirs: [
         'src/composables',
         'src/store',
@@ -59,7 +59,7 @@ export default defineConfig({
       extensions: ['vue', 'md'],
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
-      dts: 'src/components.d.ts',
+      dts: 'types/components.d.ts',
     }),
 
     // https://github.com/antfu/unocss
