@@ -13,13 +13,13 @@ function onClickArticle(title: string) {
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <div class="container ml4 md:mx-auto">
     <h2 class="mb-8 font-medium text-xl">
       최근 글
     </h2>
 
     <!-- 게시글 목록 -->
-    <div v-for="path in paths" :key="path" class="cursor-pointer" @click="onClickArticle(path)">
+    <div v-for="path in paths" :key="path" class="divide-y divide-700 cursor-pointer" @click="onClickArticle(path)">
       <h3 class="font-800 text-4xl hover:underline">
         {{ articles[path].title }}
       </h3>
