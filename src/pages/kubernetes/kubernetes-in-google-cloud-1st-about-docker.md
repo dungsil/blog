@@ -1,6 +1,6 @@
 ---
 tags: [쿠버네티스, 구글 클라우드]
-title: "[구글 스터디 잼 2022] Kubernetes in Google Cloud 1주차 - 퀘스트 2. 도커 소개"
+title: "[구글 스터디 잼 2022] Kubernetes in Google Cloud 1주차 - 퀘스트 1. 도커 소개"
 description: 2022년 구글 스터디 잼 1주차, Docker의 기본 사용법
 logo: kubernetes
 color: "#326CE5"
