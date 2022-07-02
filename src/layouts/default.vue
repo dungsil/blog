@@ -21,3 +21,14 @@
     <app-footer />
   </div>
 </template>
+
+<style>
+.prose a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.prose a[href^="#"] {
+  text-decoration: dotted underline;
+}
+</style>
