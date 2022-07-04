@@ -27,7 +27,7 @@ specifiers:
   vercel: ^25.2.1
   vite: ^2.9.12
   vite-plugin-inspect: ^0.5.0
-  vite-plugin-pages: ^0.24.2
+  vite-plugin-pages: 0.25.0
   vite-plugin-pwa: ^0.12.0
   vite-plugin-vue-layouts: ^0.6.0
   vite-plugin-vue-markdown: ^0.1.0
@@ -71,7 +71,7 @@ devDependencies:
   vercel: 25.2.1
   vite: 2.9.12
   vite-plugin-inspect: 0.5.0_vite@2.9.12
-  vite-plugin-pages: 0.24.2_vite@2.9.12
+  vite-plugin-pages: 0.25.0_vite@2.9.12
   vite-plugin-pwa: 0.12.0_vite@2.9.12
   vite-plugin-vue-layouts: 0.6.0_rhgkriiwgt67w4tmjwulloled4
   vite-plugin-vue-markdown: 0.1.0_vite@2.9.12
@@ -8265,11 +8265,11 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pages/0.24.2_vite@2.9.12:
-    resolution: {integrity: sha512-AmrHa6gi6n0mZReKzQTQ1uuf17fd1ziRDjNvSh0NTWNnDgA2si+hC8p63s3KyEmJS5lOE/rEeO4NBaRkY3sY3g==}
+  /vite-plugin-pages/0.25.0_vite@2.9.12:
+    resolution: {integrity: sha512-q0SX2iSw0UrTnivkzsPb19ZxamShq1nE/e/CKOe8+uVg70/e14uJuzKnw7dZ2omPjmV9Lhks38nzJL6RDRGmeA==}
     peerDependencies:
-      '@vue/compiler-sfc': ^2.0.0 || ^3.0.0
-      vite: ^2.0.0
+      '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
+      vite: ^2.0.0 || ^3.0.0-0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
