@@ -6,7 +6,7 @@ specifiers:
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
   '@vitejs/plugin-vue': 2.3.3
-  '@vue/test-utils': 2.0.1
+  '@vue/test-utils': 2.0.2
   '@vueuse/core': 8.7.5
   '@vueuse/head': 0.7.6
   critters: 0.0.16
@@ -54,7 +54,7 @@ devDependencies:
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
-  '@vue/test-utils': 2.0.1_vue@3.2.37
+  '@vue/test-utils': 2.0.2_vue@3.2.37
   critters: 0.0.16
   cross-env: 7.0.3
   cypress: 9.7.0
@@ -2235,8 +2235,8 @@ packages:
   /@vue/shared/3.2.37:
     resolution: {integrity: sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==}
 
-  /@vue/test-utils/2.0.1_vue@3.2.37:
-    resolution: {integrity: sha512-4kt7Sw1gzXeQOsMqrwrQbmEiG8El4MP8P4hfxkmfXdUHf7yHa3xC5CQc0x2YyuhT41w2d4K4O0ZdRvZhGdZlow==}
+  /@vue/test-utils/2.0.2_vue@3.2.37:
+    resolution: {integrity: sha512-E2P4oXSaWDqTZNbmKZFVLrNN/siVN78YkEqs7pHryWerrlZR9bBFLWdJwRoguX45Ru6HxIflzKl4vQvwRMwm5g==}
     peerDependencies:
       vue: ^3.0.1
     dependencies:
