@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.25.2",
-    "@iconify-json/carbon": "1.1.6",
+    "@iconify-json/carbon": "1.1.7",
     "@types/markdown-it-link-attributes": "3.0.1",
     "@types/nprogress": "0.2.0",
     "@vitejs/plugin-vue": "2.3.3",
