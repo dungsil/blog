@@ -35,7 +35,7 @@ specifiers:
   vite-ssg-sitemap: 0.2.7
   vitest: 0.16.0
   vue: 3.2.37
-  vue-demi: 0.13.1
+  vue-demi: 0.13.11
   vue-router: 4.0.16
   vue-tsc: 0.38.2
 
@@ -45,7 +45,7 @@ dependencies:
   nprogress: 0.2.0
   prism-theme-vars: 0.2.4
   vue: 3.2.37
-  vue-demi: 0.13.1_vue@3.2.37
+  vue-demi: 0.13.11_vue@3.2.37
   vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
@@ -2279,7 +2279,7 @@ packages:
       '@vueuse/metadata': 8.9.4
       '@vueuse/shared': 8.9.4_vue@3.2.37
       vue: 3.2.37
-      vue-demi: 0.13.1_vue@3.2.37
+      vue-demi: 0.13.11_vue@3.2.37
 
   /@vueuse/head/0.7.9_vue@3.2.37:
     resolution: {integrity: sha512-5wnRiH2XIUSLLXJDLDDTcpvAg5QXgTIVZl46AU7to/T91KHsdBLHSE4WhRO7kP0jbkAhlxnx64E29cQtwBrMjg==}
@@ -2303,7 +2303,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.37
-      vue-demi: 0.13.1_vue@3.2.37
+      vue-demi: 0.13.11_vue@3.2.37
 
   /abab/2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -8247,8 +8247,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-demi/0.13.1_vue@3.2.37:
-    resolution: {integrity: sha512-xmkJ56koG3ptpLnpgmIzk9/4nFf4CqduSJbUM0OdPoU87NwRuZ6x49OLhjSa/fC15fV+5CbEnrxU4oyE022svg==}
+  /vue-demi/0.13.11_vue@3.2.37:
+    resolution: {integrity: sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
