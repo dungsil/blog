@@ -17,7 +17,7 @@
     "@vueuse/head": "0.7.9",
     "nprogress": "0.2.0",
     "prism-theme-vars": "0.2.4",
-    "vue": "3.2.41",
+    "vue": "3.2.45",
     "vue-demi": "0.13.11",
     "vue-router": "4.0.16"
   },
