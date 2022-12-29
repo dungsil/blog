@@ -1,0 +1,48 @@
+---
+import DefaultLayout from '../layouts/default.astro';
+
+import InnerContainer from '../components/InnerContainer.astro';
+import OuterContainer from '../components/OuterContainer.astro';
+import TitleHeader from '../components/TitleHeader.astro';
+
+import SocialLinks from '../islands/SocialLinks.astro';
+import WorkingList from '../islands/WorkingList.astro';
+---
+
+<DefaultLayout title="소개">
+  <OuterContainer>
+    <InnerContainer>
+      <!-- 헤더 부분 -->
+      <div class="flex flex-col gap6">
+        <TitleHeader>
+          사용자에게 편안함을 주고 싶은 웹개발자 💤
+        </TitleHeader>
+
+        <p class="text-base leading-relaxed c-zinc-600 dark:c-zinc-400">
+          서울에서 웹개발자로 일하고 있는 김용건입니다. 오픈소스에 관심이 많으며
+          모두가 안전하고 간편하게 웹을 사용하는 세상을 꿈꿉니다.
+        </p>
+
+        <div class="flex gap4">
+          <SocialLinks />
+        </div>
+      </div>
+
+      <!-- 컨텐츠 부분 -->
+      <div class="mt24 md:mt28">
+        <div class="grid grid-cols-1 gap-y-20 mx-auto lg:max-w-none lg:grid-cols-2">
+
+          <!-- 게시글 부분 -->
+          <div class="flex flex-col gap16">
+            <p>아직 작성한 게시글이 존재하지 않습니다.</p>
+          </div>
+
+          <!-- 추가정보 부분 -->
+          <aside class="space-y-10 lg:pl16 xl:pl24">
+            <WorkingList />
+          </aside>
+        </div>
+      </div>
+    </InnerContainer>
+  </OuterContainer>
+</DefaultLayout>

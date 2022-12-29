@@ -1,0 +1,22 @@
+﻿---
+export interface Props {
+    href: string
+    classes?: string
+    underline?: boolean
+}
+
+const {
+  href,
+  classes,
+  underline = false,
+} = Astro.props
+const isExternal = href.startsWith('http://') || href.startsWith('https://')
+---
+
+<a href={href}
+   class:list={['inline-block', 'transition font-500 hover:c-indigo-600 dark:hover:c-indigo-400', { underline }, classes]}
+   rel="noopener noreferrer"
+   target={isExternal ? '_target' : '_self'}
+>
+    <slot />
+</a>

@@ -1,0 +1,16 @@
+﻿---
+export interface Props {
+  title: string
+  icon?: string
+}
+
+const { title, icon } = Astro.props
+---
+
+<div class="p6 border border-zinc-100 rounded-2xl dark:border-zinc-700/40">
+  <h2 class="flex items-center font-600 text-sm c-zinc-900 dark:c-zinc-100">
+    <span aria-hidden="true" class:list={['flex-none w6 h6', icon]} />
+    <span class="ml3">{ title }</span>
+  </h2>
+  <slot />
+</div>

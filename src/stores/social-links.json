@@ -1,0 +1,17 @@
+﻿[
+  {
+    "label": "깃허브 바로가기",
+    "icon": "simple-icons:github",
+    "href": "https://github.com/dungsil"
+  },
+  {
+    "label": "마스토돈 바로가기",
+    "icon": "simple-icons:mastodon",
+    "href": "https://dun.land/@dungsil"
+  },
+  {
+    "label": "트위터 바로가기",
+    "icon": "simple-icons:twitter",
+    "href": "https://twitter.com/dun__land"
+  }
+]

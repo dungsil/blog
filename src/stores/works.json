@@ -1,0 +1,28 @@
+﻿[
+  {
+    "project": "Omni-IM",
+    "title": "소프트웨어 엔지니어",
+    "logo": "/projects/omniim.png",
+    "start": 2021
+  },
+  {
+    "project": "EYES Protocol",
+    "title": "PM & 소프트웨어 엔지니어",
+    "logo": "/projects/eyes.png",
+    "start": 2018
+  },
+  {
+    "project": "EYES Vault (前 FOSSGuard)",
+    "title": "PM & 소프트웨어 엔지니어",
+    "logo": "/projects/eyes.png",
+    "start": 2017,
+    "end": 2021
+  },
+  {
+    "project": "OLIS",
+    "title": "소프트웨어 엔지니어",
+    "logo": "/projects/copyright.svg",
+    "start": 2016,
+    "end": 2017
+  }
+]

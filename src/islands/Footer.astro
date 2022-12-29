@@ -1,0 +1,44 @@
+﻿---
+import SocialLinks from './SocialLinks.astro';
+import InnerContainer from '../components/InnerContainer.astro';
+import OuterContainer from '../components/OuterContainer.astro';
+import Link from '../components/Link.astro';
+import menus from '../stores/menus.json';
+---
+
+<footer class="mt-auto">
+    <OuterContainer>
+        <div class="pb16 border-t border-zinc-100 dark:border-zinc-700/40">
+            <InnerContainer>
+                <div class="flex flex-col items-start justify-between gap6 md:flex-row">
+                    <!-- 메뉴 -->
+                    <div class="flex items-center gap6 font-500 text-sm c-zinc-800 dark:c-zinc-200">
+                        {menus.map((menu) => (
+                            <Link href={menu.href}>{menu.name}</Link>
+                        ))}
+                    </div>
+
+                    <div class="flex flex-col items-end gap4 text-xs text-center md:text-right c-zinc-500 dark:c-zinc-400">
+                        <!-- 저작권 고지문 -->
+                        <div>
+                          <p>
+                            &copy; 2016-{new Date().getFullYear()} 김용건
+                          </p>
+                          <p>
+                              별도의 고지가 없는 출처 표기 후 자유롭게 사용하실 수 있습니다.
+                              <Link href="https://creativecommons.org/licenses/by/4.0/deed.ko" underline={true}>
+                                (CC BY 4.0)
+                              </Link>
+                          </p>
+                        </div>
+
+                        <!-- 소셜 링크 -->
+                        <div class="flex gap4">
+                          <SocialLinks />
+                        </div>
+                    </div>
+                </div>
+            </InnerContainer>
+        </div>
+    </OuterContainer>
+</footer>

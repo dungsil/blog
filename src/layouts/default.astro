@@ -1,0 +1,22 @@
+---
+import App, { Props } from '../_app.astro'
+
+import Header from '../islands/Header.astro';
+import Footer from '../islands/Footer.astro';
+
+const { title } = Astro.props as Props;
+---
+
+<App title={title}>
+	<div class="flex max-w-7xl min-h-screen lg:px16">
+    <div class="flex flex-col bg-white ring-1 ring-zinc-100 dark:bg-zinc-800 dark:ring-zinc-300/20">
+      <Header />
+
+      <main class="flex-">
+        <slot />
+      </main>
+
+      <Footer />
+    </div>
+  </div>
+</App>

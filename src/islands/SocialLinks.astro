@@ -1,0 +1,13 @@
+﻿---
+import Link from '../components/Link.astro';
+import socialLinks from '../stores/social-links.json';
+---
+
+{socialLinks.map((social) => (
+  <Link href={social.href}
+        classes="p1 hover:c-zinc-600  dark:hover:c-zinc-300"
+        aria-label={social.label}
+  >
+    <span aria-hidden="true" class:list={['w6', 'h6', social.icon]} />
+  </Link>
+))}
