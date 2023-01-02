@@ -13,7 +13,7 @@ dependencies:
 
 devDependencies:
   '@iconify-json/ph': 1.1.3
-  '@iconify-json/simple-icons': 1.1.39
+  '@iconify-json/simple-icons': 1.1.40
   unocss: 0.48.0
 
 packages:
@@ -170,7 +170,7 @@ packages:
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
-      json5: 2.2.2
+      json5: 2.2.3
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -411,8 +411,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons/1.1.39:
-    resolution: {integrity: sha512-iig2kB8jCotA3CO1gTrtzWlk2qFHBAHLWZRW8grJPeixRTTAx3p31019SFjMTSv3j9CPJ3vy/Akcja4aDOe5Vw==}
+  /@iconify-json/simple-icons/1.1.40:
+    resolution: {integrity: sha512-k+dCMQsVDVh2mrIkJpD5d/Jax+UTAlOf3YejXW1ZAwBtlu6Mq4CkO50VSJujNZRGFtPmPGAZSWbr1q72FFmR7A==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -421,8 +421,8 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
-  /@iconify/utils/2.0.6:
-    resolution: {integrity: sha512-XVC4T1gKbtKBjwvWdTthYkRWNNiGDfsbyuTvFdbcOux77KIF2w03hQMxKcMTtFwezzW/DV5CC3DNZfY3Tcs0hA==}
+  /@iconify/utils/2.0.9:
+    resolution: {integrity: sha512-ropNqaeamoxZvXxvaTJXrI0MrqdWdDVIs/mW7/sEQbNi0aXYUGL2iuLs1da3QR163gyG63kiyTsqw2oQYamw3Q==}
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
@@ -487,7 +487,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.14.0
+      fastq: 1.15.0
 
   /@pkgr/utils/2.3.1:
     resolution: {integrity: sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw==}
@@ -697,7 +697,7 @@ packages:
   /@unocss/preset-icons/0.48.0:
     resolution: {integrity: sha512-3vro36gTkjEic5rO9BcUudby8tQ9ZRCduKZ1+4CKP0hKoB58nDm1QZM+kvWQ8RVN2xoSU9vWkHhx1RLl8miE0g==}
     dependencies:
-      '@iconify/utils': 2.0.6
+      '@iconify/utils': 2.0.9
       '@unocss/core': 0.48.0
       ohmyfetch: 0.4.21
     transitivePeerDependencies:
@@ -1624,8 +1624,8 @@ packages:
       merge2: 1.4.1
       micromatch: 4.0.5
 
-  /fastq/1.14.0:
-    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==}
+  /fastq/1.15.0:
+    resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
     dependencies:
       reusify: 1.0.4
 
@@ -2064,8 +2064,8 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: false
 
-  /json5/2.2.2:
-    resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
+  /json5/2.2.3:
+    resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
     dev: false
@@ -3392,7 +3392,7 @@ packages:
     dependencies:
       '@types/json5': 0.0.30
       '@types/resolve': 1.20.2
-      json5: 2.2.2
+      json5: 2.2.3
       resolve: 1.22.1
       strip-bom: 4.0.0
       type-fest: 0.13.1
