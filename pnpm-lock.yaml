@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@unocss/reset':
-    specifier: ^0.50.0
-    version: 0.50.0
+    specifier: ^0.55.0
+    version: 0.55.0
   astro:
     specifier: ^2.0.0
     version: 2.0.0
@@ -843,6 +847,11 @@ packages:
 
   /@unocss/reset@0.50.0:
     resolution: {integrity: sha512-cU3YlVWvt9F1wW6X1/j5HXL/DQvod6bM+2sF7wvIuQyeLoiMM7z4Ne5VBwUX4Q0Tt9Chu295MqdQkK6elrDUYg==}
+    dev: true
+
+  /@unocss/reset@0.55.0:
+    resolution: {integrity: sha512-TzpcOCIr16IbFxQ4vrSfEV+A8k0N4mJkhl7J3SZfAxBpNDBKAWDB6VBW9iEQY5aBYDLN3wRx1LskgEoubqBCPQ==}
+    dev: false
 
   /@unocss/scope@0.50.0:
     resolution: {integrity: sha512-QMZ1cenJv1UZxvN4yRI54lNqiXkQ6Iq8JkXQ1iVdGoQBoaeMgU1TIpx7hjkBr+kNkcVcM4FgxOW23/8c5pxyMg==}
