@@ -18,10 +18,10 @@ devDependencies:
     version: 1.1.11
   '@iconify-json/simple-icons':
     specifier: ^1.1.39
-    version: 1.1.94
+    version: 1.1.95
   unocss:
     specifier: ^0.50.0
-    version: 0.50.8(postcss@8.4.35)(vite@4.5.2)
+    version: 0.50.8(postcss@8.4.36)(vite@4.5.2)
 
 packages:
 
@@ -750,8 +750,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.94:
-    resolution: {integrity: sha512-2UwwbEJeZ/aMpACG/dZoOhNszKFO+IjcRCbYB+lMqd+6fA5ewykRy63IP8//UdviazOPamGJ/XbNBJH/o1YFdQ==}
+  /@iconify-json/simple-icons@1.1.95:
+    resolution: {integrity: sha512-rNrqaG7PVrR0CsawtTb44xXiUhh3REBmYo5WbUMchtZQUMfJfGAszFMnAkFNs2GLVO2H/VTimA98hOtJfKWSig==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -981,7 +981,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.50.8(postcss@8.4.35):
+  /@unocss/postcss@0.50.8(postcss@8.4.36):
     resolution: {integrity: sha512-UbFD+25EkmBonZggKuQdunAU+1O6O83NcnMqSalhn4vhsr4yHeD4P+Omr+CnBcuOxkP4h2JYHzfzdpe4DZxKYg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -992,7 +992,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.8
-      postcss: 8.4.35
+      postcss: 8.4.36
     dev: true
 
   /@unocss/preset-attributify@0.50.8:
@@ -2773,6 +2773,15 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  /postcss@8.4.36:
+    resolution: {integrity: sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.1.0
+    dev: true
+
   /preferred-pm@3.1.3:
     resolution: {integrity: sha512-MkXsENfftWSRpzCzImcp4FRsCc3y1opwB73CfCNWyzMqArju2CrlMHlqB7VexKiPEOjGMbttv1r9fSCn5S610w==}
     engines: {node: '>=10'}
@@ -3060,6 +3069,11 @@ packages:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
 
+  /source-map-js@1.1.0:
+    resolution: {integrity: sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: false
@@ -3340,7 +3354,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /unocss@0.50.8(postcss@8.4.35)(vite@4.5.2):
+  /unocss@0.50.8(postcss@8.4.36)(vite@4.5.2):
     resolution: {integrity: sha512-3yqKkSm/SKCKxFolXNR12Mi64lr4PW95LSHKZ/a9Yzlf2PT1NirAn8/uJ8KoJJBNR2YWobtkLi4UplFz/8IAYA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3352,7 +3366,7 @@ packages:
       '@unocss/astro': 0.50.8(vite@4.5.2)
       '@unocss/cli': 0.50.8
       '@unocss/core': 0.50.8
-      '@unocss/postcss': 0.50.8(postcss@8.4.35)
+      '@unocss/postcss': 0.50.8(postcss@8.4.36)
       '@unocss/preset-attributify': 0.50.8
       '@unocss/preset-icons': 0.50.8
       '@unocss/preset-mini': 0.50.8
