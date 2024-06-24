@@ -18,7 +18,7 @@ devDependencies:
     version: 1.1.13
   '@iconify-json/simple-icons':
     specifier: ^1.1.39
-    version: 1.1.105
+    version: 1.1.106
   unocss:
     specifier: ^0.50.0
     version: 0.50.8(postcss@8.4.38)(vite@4.5.3)
@@ -760,8 +760,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.105:
-    resolution: {integrity: sha512-eSI32492Ga6IR7BhpDy222pSupqshZIVuYllaYHDO0MjmgVvfus5wgXb/U8RXpMZTpcQ/8dNcCK82LkupFqD4w==}
+  /@iconify-json/simple-icons@1.1.106:
+    resolution: {integrity: sha512-3aHpMAgc0UES/ecsCzaXhyBuJVy1AEC/IG03cso6KqvG+DJzrb3LT2ibTTB4uoGGPAmz/mq9df4LqYQhbSrHCA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
